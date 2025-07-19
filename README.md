@@ -28,23 +28,34 @@ venv/
 # Add files to git, commit, push, and sync
 
 '''
+git status
 git add .
+
+<!-- Or add all files including new ones -->
+
+git add -A
 git commit -m "Your commit message"
-git pull
-git push
+
+<!-- commits:
+
+feat: for new features
+fix: for bug fixes
+docs: for documentation
+refactor: for code refactoring -->
+
+git pull origin main
+git push origin main
 git pull
 '''
 
 =======
 
-> > > > > > > 
 > > > > > > > '''
 > > > > > > > git commit -m "Initial commit"
 > > > > > > > '''
 
 # <<<<<<< HEAD
 
-> > > > > > > 
 > > > > > > > '''
 > > > > > > > git push -u origin main
 > > > > > > > git merge origin main
