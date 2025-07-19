@@ -1,2 +1,3 @@
 .venv_llmops
 llmops.egg-info
+.env
