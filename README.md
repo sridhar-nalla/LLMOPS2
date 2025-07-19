@@ -34,14 +34,15 @@ git add .
 <!-- Or add all files including new ones -->
 
 git add -A
+
 git commit -m "Your commit message"
 
-<!-- commits:
+'''commits:
 
 feat: for new features
 fix: for bug fixes
 docs: for documentation
-refactor: for code refactoring -->
+refactor: for code refactoring'''
 
 git pull origin main
 git push origin main
